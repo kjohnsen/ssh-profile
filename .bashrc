@@ -3,8 +3,16 @@
 # for examples
 
 # my aliases
-alias ll = "ls -lh"
-alias up = "cd .."
+alias ll ='ls -lh'
+alias up ='cd ..'
+alias la ='ls -a'
+
+#my functions
+function lazygit() {
+    git add "$1"
+    git commit -m "$2"
+    git push
+}
 
 
 # If not running interactively, don't do anything
