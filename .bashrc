@@ -3,9 +3,9 @@
 # for examples
 
 # my aliases
-alias ll ='ls -lh'
-alias up ='cd ..'
-alias la ='ls -a'
+alias ll='ls -lh'
+alias up='cd ..'
+alias la='ls -a'
 
 #my functions
 function lazygit() {
