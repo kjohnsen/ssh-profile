@@ -6,6 +6,7 @@
 alias ll='ls -lh'
 alias up='cd ..'
 alias la='ls -a'
+alias vw='vim ~/vimwiki/index.wiki'
 
 #my functions
 function lazygit() {
